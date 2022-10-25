@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="AutomationFarameWork">
+	<listeners>
+		<listener
+			class-name="com.testAutomation.qa.ExtentReportListener.TestListeners" />
+	</listeners>
+
+
+	<test name="Test">
+		<classes>
+			<class
+				name="com.testAutomation.qa.TestSuites.tc_003_ViewExistingComputer"></class>
+			<!-- <class name="com.testAutomation.qa.TestSuites.tc_002_CammsCollegeLogout"></class> -->
+			<!-- <class name="com.testAutomation.qa.TestSuites.tc_1"></class> -->
+
+
+		</classes>
+	</test>
+</suite>
